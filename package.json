@@ -1,0 +1,21 @@
+{
+  "name": "cloudprint",
+  "version": "1.0.0",
+  "description": "Repository for handling document storage to cloud with user authentication using openstack swift,nodejs,mysql and reactjs",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "Bony Roy",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "react-bootstrap": "^1.0.0-beta.11",
+    "react-strap": "0.0.1"
+  }
+}
